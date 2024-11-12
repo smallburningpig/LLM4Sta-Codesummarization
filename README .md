@@ -7,7 +7,7 @@ This repository contains code, datasets, and evaluation scripts for the paper **
 
 - **Cat-for-statement-level-code/**: Contains tools for filtering and cleaning statement-level code comments to enhance dataset quality.
 - **Dataset.jsonl**: The curated dataset used in this study, consisting of statement-level code snippets along with comments and contextual information.
-- **LLMevl.py**: Evaluation script using large language models to assess code summarization quality. It also supports comparisons between human and LLM-based evaluations.
+- **LLMevl.py**: Evaluation script using large language models to assess code summarization quality.
 - **Run.py**: Main script for running the experiments described in the paper.
 - **auto_evaluate.py**: Script for automated evaluation of generated summaries using BLEU, METEOR, and ROUGE metrics.
 - **auto_resultclean.py**: Tool for cleaning and organizing evaluation results.
