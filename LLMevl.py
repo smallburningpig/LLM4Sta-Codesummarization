@@ -108,7 +108,7 @@ def main():
 
     code = [remove_comments_and_docstrings(read_file_to_string(txt_file), 'java') for txt_file in txt_files]
 
-    output_file_name = f'human_results.csv'
+    output_file_name = f'results.csv'
     generate_summaries_zero_shot(args, model, code=code, output_file=output_file_name, cnt=0)
 
 if __name__ == '__main__':
