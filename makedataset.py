@@ -80,13 +80,12 @@ def merge_and_process_jsonl_files(folder_path, output_file):
         for filename in files:
             if filename.endswith('.jsonl'):
                 file_path = os.path.join(root, filename)
-                print(f"正在处理文件: {file_path}")
                 original_count, processed_count = process_jsonl_file(file_path, output_file)
                 total_original_count += original_count
                 total_processed_count += processed_count
 
-    print(f"处理前的总数据条数: {total_original_count}")
-    print(f"处理后的总数据条数: {total_processed_count}")
+    print(f"pre: {total_original_count}")
+    print(f"final: {total_processed_count}")
 
 
 
